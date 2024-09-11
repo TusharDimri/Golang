@@ -62,7 +62,7 @@ func updateOneMovie(movieId string) {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Println("Modifies count: ", result.ModifiedCount)
+	fmt.Println("Modified count: ", result.ModifiedCount)
 }
 
 // Delete 1 record
